@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:  Arial, Helvetica, sans-serif;
+    color: rgb(20, 20, 20);
+}
+
+/* Demmi */
+
+a{
+    color: rgb(7, 134, 207);
+    margin-left: 10px;
+    text-decoration: none;
+}
+ a:hover{
+    text-decoration:underline;
+}
+a i{
+    font-size: 13px;
+}
+.content h1{
+    font-size: 55px;
+    font-family: 'acticulat',Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+/* Header */
+.header{
+    background-color: rgba(19, 19, 19, 0.870);
+    color: rgba(255, 255, 255, 0.705);
+    padding: 14px 10% 14px 12%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    z-index: 10;
+   
+
+}
+.header ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header li{
+    display: inline;
+    cursor: pointer;
+    font-size: 12px;
+    
+}
+.header li:first-child{
+    font-size: 15px;
+}
+.header li:nth-child(12),.header li:nth-child(13){
+    font-size: 14px;
+}
+.header li:hover{
+    color: white;
+}
+
+
+/* Top bar */
+.top-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    padding: 12px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 45px;
+}
+
+/* Section One */
+.section-one{
+    /* background-image: url(/images/products/hero_macbookair_large.png); */
+    background-image: url(../images/products/hero_macbookair_large.png);
+    width: 100%;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+
+}
+.section-one .content{
+    text-align: center;
+}
+
+.section-one .content p{
+    font-family: 'acticulat',Arial, Helvetica, sans-serif;
+    color: rgb(124, 124, 124);
+    font-weight: 500;
+    font-size: 20px;
+    padding: 15px 0 15px 0;
+}
+.section-one .content a{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Section Two */
+
+.section-two{
+    /* background-image: url(/images/products/hero_iphone13_large.jpg); */
+    background-image: url(../images/products/hero_iphone13_large.jpg);
+    width: 100%;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-top: 60px;
+}
+.section-two .content{
+    text-align: center;
+}
+.section-two .content p{
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+.section-two .content a{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* Section Three */
+.section-three{
+    background-image: url(../images/products/hero_bts_large.jpg);
+    width: 100%;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    padding-top: 60px;
+}
+.section-three .content{
+    text-align: center;
+}
+.section-three .content h1{
+    font-style: italic;
+}
+.section-three .content span{
+    color: rgb(194, 0, 107);
+}
+.section-three .content p{
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+.section-three .content a{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* Small Sections */
+
+.small-sections{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6px;
+}
+.small-sections>div{
+    height: 92vh;
+    width: 50%;
+    padding: 6px;
+   
+}
+.small-sections>div .box{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.small-sections>div .box .content{
+    text-align: center;
+}
+.small-sections>div .box .content h1{
+    font-size: 40px;
+    font-family: 'acticulat',Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.small-sections>div .box .content p{
+    font-size: 20px;
+    margin-bottom: 13px;
+   
+}
+.small-sections>div .box .content a{
+    font-weight: 500;
+    font-size: 17px;
+}
+
+/* Small One */
+.small-one .box{
+    background-image: url(../images/products/promo_watch_lte__djeaso7ukrsm_large.jpg);
+   
+}
+
+.small-one .content p{
+    margin-top: 13px;
+}
+
+/* Small Two */
+.small-two .box{
+    background-image: url(../images/products/promo_iphone13pro_avail__beadms4ldidu_large.jpg);
+   
+}
+
+/* Small Three */
+.small-three .box{
+    background-image: url(../images/products/promo_mbp13__buwssod6c8vm_large.jpg);
+    color: white;  
+}
+
+/* Small Four */
+.small-four .box{
+    background-image: url(../images/products/promo_ipadair_avail__ferd4bfpcdm6_large.jpg);
+    color: white; 
+}
+
+/* Small Five */
+.small-five .box{
+    background-image: url(../images/products/tile_arcade_cooking_mama__dasht2wtew02_large.jpg);
+}
+.small-five .content p{
+    margin-top: 10px;
+}
+
+/* Small Six */
+.small-six .box{
+    background-image: url(../images/products/promo_for_all_mankind__c9e605xbw92e_large.jpg);
+    flex-wrap: wrap;
+    position: relative;
+}
+.small-six .content-1{
+    position: absolute;
+}
+
+.small-six .content-2{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+}
+.small-six .content-2 img{
+    padding: 7px;
+}
+.small-six .content-2 a{
+    color: white;
+}
+.small-six .content-2 i{
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+/* Section Four */
+.section-four{
+    background-color: rgb(240, 240, 240);
+    padding-left: 13%;
+    padding-right: 13%;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: rgb(78, 78, 78);
+    line-height: 18px;
+}
+.section-four p{
+    margin-top: 10px;
+}
+.section-four ul{
+    list-style-type:upper-greek;
+    list-style-position: inside;
+}
+.section-four li{
+    margin-top: 10px;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(240, 240, 240);
+    padding-left: 13%;
+    padding-right: 13%;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    line-height: 18px;
+}
+
+/* Content */
+.footer-div{
+    border-top: solid 1px rgb(172, 172, 172);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+}
+.footer-div .list{
+    width: 100%;
+}
+
+.footer-div .list ul{
+    list-style-type: none;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.footer-div .list ul .title{
+    font-weight: 600;
+}
+.footer-div .list a{
+    margin-left: 0;
+    color: rgb(78, 78, 78);
+}
+
+/* Footer bottom */
+footer .botton-line{
+    margin-top: 15px;
+    margin-bottom: 12px;
+    border-bottom: 1px solid  rgb(172, 172, 172);
+    padding-bottom: 12px;
+    
+}
+footer .botton-line a{
+    margin-left: 0;
+}
+
+footer .copyright{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+footer .copyright div{
+    display: flex; 
+}
+footer .copyright div a{
+    padding: 0px 10px  0 10px;
+    margin: 0;
+    border-right: 1px solid gray;
+}
+footer .copyright div :last-child{
+    border: none;
+}
+
+footer .copyright a{
+    color: rgb(78, 78, 78);
+   
+}
